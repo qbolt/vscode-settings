@@ -1,0 +1,278 @@
+{
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "/bin/zsh",
+            "args": [
+                "-l",
+                "-i"
+            ]
+        }
+    },
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.centerLayout": false,
+    "workbench.editor.showTabs": "single",
+    "editor.scrollBeyondLastLine": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.duration": 100,
+    "nerdtree.hideSidebarWhenOpenFile": false,
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    "editor.lineHeight": 1.4,
+    "editor.fontSize": 11,
+    "editor.tabSize": 4,
+    // Insert spaces when pressing Tab. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "git.ignoreMissingGitWarning": true,
+    "git.enabled": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false,
+    },
+    "window.commandCenter": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "files.associations": {
+        "*.js": "javascriptreact",
+        "*.jsx": "javascriptreact",
+        "*.tsx": "typescriptreact",
+        "*.ts": "typescriptreact"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-i>"
+            ],
+            "commands": [
+                "interactiveEditor.start"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "s"
+            ],
+            "commands": [
+                "findThenJump.initiate"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-i>"
+            ],
+            "commands": [
+                "interactiveEditor.start"
+            ]
+        }
+        {
+            "before": [
+                "s"
+            ],
+            "commands": [
+                "findThenJump.initiate"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "a"
+            ],
+            "commands": [
+                "vscode-harpoon.addEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "vscode-harpoon.editEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "vscode-harpoon.editorQuickPick"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "1"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor1"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "2"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor2"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "3"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor3"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "4"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor4"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "5"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor5"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "6"
+            ],
+            "commands": [
+                "vscode-harpoon.gotoEditor6"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "revealInExplorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "f"
+            ],
+            "commands": [
+                "fileutils.renameFile"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "e"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "o",
+                "g"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }
+    ],
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+    "dateTime.showMonth": true,
+    "dateTime.showDayOfMonth": true,
+    "dateTime.showDayOfWeek": true,
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "file-icons",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.accessibilitySupport": "off",
+    "workbench.colorTheme": "Field Lights",
+    "cSpell.userWords": [
+        "Pickture"
+    ],
+    "window.zoomLevel": 1,
+    "zenMode.showTabs": "single",
+    "godotTools.editorPath.godot4": "C:/Users/qbolt/Godot_v4.2.1-stable_mono_win64/Godot_v4.2.1-stable_mono_win64.exe"
+}
